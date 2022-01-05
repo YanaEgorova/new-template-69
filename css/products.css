@@ -1,0 +1,127 @@
+.products__wrapper { 
+}
+.products {
+    text-align: center;
+    padding: 15rem 0 20rem;
+}
+
+.sub-title__box {
+    position: relative;
+    margin-bottom: 3rem;
+}
+.prod__title {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    font-family: var(--title-font);
+}
+.success-message {
+    background-color: var(--success);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    margin-bottom: 2rem;
+}
+.success-message--active {
+    opacity: 1;
+    visibility: visible;
+}
+.products .sub-title {
+    margin-bottom: 0;
+    padding-bottom: 7rem;
+}
+.products .item {
+    margin-top: 8rem;
+    position: relative;
+}
+.product__block {
+    padding: .2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.product__text-box {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.product__img-box .img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.product__name {
+    font-family: var(--main-title-font);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.product__price {
+    display: block;
+    font-size: 3rem;
+}
+.product__text-box {
+    padding: 1rem 0;
+    z-index: 22;
+}
+.product__btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product__btn-box .btn {
+    margin: 0;
+}
+.product__btn-box .btn:first-child {
+    margin-right: 3rem;
+    background-color: transparent; 
+    color: var(--first-brand-color);
+}
+
+@media screen and (min-width: 1440px) {  
+    .products__wrapper { 
+      
+    }
+ 
+   .products__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        position: relative;
+        column-gap: 10rem;
+        row-gap: 15rem;
+
+        background-color: var(--main-bg-color);
+        padding: 5rem;
+
+    }
+    .products .item {
+        margin-top: 0;
+        text-align: left;
+
+        background-color: var(--main-bg-color);
+    }
+    
+    .product__btn-box .btn:first-child:hover {
+        background-color: var(--first-brand-color); 
+        color: var(--sub-text-color);
+    }
+    
+}
+
+

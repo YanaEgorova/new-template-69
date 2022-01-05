@@ -1,0 +1,45 @@
+.hero__wrapper {
+    overflow: hidden;
+}
+.hero {
+    padding: 15rem 0 10rem;
+}
+.block {
+    max-width: 90rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--sub-text-color);
+    padding: 5rem;
+    position: relative;
+}
+.big-title {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .hero .title {
+        font-size: 15rem;
+    }
+
+    .big-title {
+        display: block;
+        position: absolute;
+        font-size: 16rem;
+        text-transform: uppercase;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--sub-text-color);
+        white-space: nowrap;
+        z-index: -1;
+    }
+    .big-title-second {
+        top: 0;
+        transform: translate(-50%, 0);
+    }
+    .big-title-third {
+        top: auto;
+        bottom: 0;
+        transform: translate(-50%, 0);
+    }
+}
