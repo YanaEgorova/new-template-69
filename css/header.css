@@ -95,6 +95,7 @@
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     padding: 10rem 2rem 2rem;
+ 
 }
 .nav.open-menu {
     left: 0;
@@ -106,6 +107,7 @@ body.open-menu {
     margin-bottom: 3rem;
     display: block;
 }
+
 .nav__item:not(:last-child) {
     margin-bottom: 2rem;
 }
