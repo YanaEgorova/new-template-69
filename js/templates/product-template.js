@@ -1,7 +1,9 @@
 import { imagesList } from './product-images.js';
 import { description } from './product-description.js';
+import { dropdown } from './size-dropdown.js';
 
 export const productTemplate = (product, amount) => {
+   
     return `
    <div class="prod__block js_prod__block" id="${product.id}">
    <div class="prod__img-box">
@@ -53,6 +55,9 @@ v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,
        <div class="prod__price-box">
        <span class="prod__price js_prod__price">$ ${(product.price).toFixed(2)}</span>
        </div>
+
+       ${product.isItRing ? dropdown(product.ringSizes) : ''}
+       
        <div class="add__btn-box">
        <p class="text success-message js_success-message">Success! You have added <span class="js_success-product-name"></span> to your shopping cart!</p>
        <button class="btn add__btn js_add__btn">add to cart</button>

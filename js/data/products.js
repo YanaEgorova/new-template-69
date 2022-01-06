@@ -13,6 +13,8 @@ export const products = [
             },
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-2',
@@ -37,6 +39,8 @@ export const products = [
             },
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-3',
@@ -61,6 +65,8 @@ export const products = [
             },
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-4',
@@ -86,6 +92,8 @@ export const products = [
            
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-5',
@@ -111,6 +119,8 @@ export const products = [
          
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-6',
@@ -136,6 +146,8 @@ export const products = [
          
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-7',
@@ -161,6 +173,8 @@ export const products = [
          
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-8',
@@ -185,6 +199,8 @@ export const products = [
             },
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-9',
@@ -210,6 +226,8 @@ export const products = [
           
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-10',
@@ -235,6 +253,8 @@ export const products = [
           
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-11',
@@ -260,6 +280,8 @@ export const products = [
           
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-12',
@@ -285,6 +307,8 @@ export const products = [
          
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-13',
@@ -310,6 +334,8 @@ export const products = [
          
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
     {
         id: 'product-14',
@@ -334,5 +360,7 @@ export const products = [
             },
         ],
         images: [],
+        isItRing: false,
+        ringSizes: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
     },
 ]
